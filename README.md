@@ -33,7 +33,7 @@ Laboratory of BPA-DE2
 
 ```java
 class DigitalElectronics 2{
-DigitalElectronics 2(double students);
+DigitalElectronics2(double students);
 }
 ```
 
