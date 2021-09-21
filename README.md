@@ -2,8 +2,14 @@
 Laboratory of BPA-DE2
 # We're going to have an awesome semester
 ## Even though for now it's all still new 
+
+
 *ERASMUS* **ERASMUS** _ERASMUS_ ~~ERASMUS~~ **ERASMUS_ERASMUS_**
+
+
 [Oh,look a link ](https://www.google.com)
+
+
 ![This is where I am from !](https://user-images.githubusercontent.com/32979978/134162818-d80b9617-73a2-4c6b-b470-9cd9180ee328.png) "Romania flag")
 
 * My name is Radu
