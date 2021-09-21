@@ -27,9 +27,9 @@ Laboratory of BPA-DE2
 @tomas-fryza is our teacher !
 @tomas-fryza :+1: This course looks amazing, thanks for the great structure 🦮
 
-**As Mark Twain once said :
+**As Mark Twain once said :**
 
->Always respect your superiors; if you have any.**
+>Always respect your superiors; if you have any.
 
 ```java
 class DigitalElectronics 2{
