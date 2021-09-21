@@ -10,7 +10,7 @@ Laboratory of BPA-DE2
 [Oh,look a link ](https://www.google.com)
 
 
-![This is where I am from !](https://user-images.githubusercontent.com/32979978/134162818-d80b9617-73a2-4c6b-b470-9cd9180ee328.png) "Romania flag")
+![This is where I am from !](https://user-images.githubusercontent.com/32979978/134162818-d80b9617-73a2-4c6b-b470-9cd9180ee328.png) )
 
 * My name is Radu
 * This is the DE2 Lab
@@ -33,7 +33,7 @@ Laboratory of BPA-DE2
 
 ```java
 class DigitalElectronics 2{
-String students;
+DigitalElectronics 2(double students);
 }
 ```
 
