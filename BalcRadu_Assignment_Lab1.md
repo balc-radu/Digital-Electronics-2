@@ -2,7 +2,7 @@
 
 Link to your `Digital-electronics-2` GitHub repository:
 
-   [https://github.com/...](https://github.com/...)
+   [https://github.com/balc-radu/Digital-Electronics-2](Balc Radu's repository)
 
 
 ### Blink example
