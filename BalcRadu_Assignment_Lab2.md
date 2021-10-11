@@ -80,12 +80,12 @@ int main(void) {
 GPIO_config_output(&DDRB, WHITE_LED); // we configure the white led as ouput on port PB5
 GPIO_write_high(&PORTB, WHITE_LED);  // we write it as high, this is on at the moment of execution 
 
-/* BLUE LED */ 
+//  BLUE LED 
 
 GPIO_config_output(&DDRC, BLUE_LED); // we configure the white led as ouput on port PB0
 GPIO_write_low(&PORTC, BLUE_LED);  // we write it as low, this is off at the moment of execution 
  
-/* PORT D BUTTON */ 
+//  PORT D BUTTON 
 
 GPIO_config_input_pullup(&DDRD, BUTTONHW);  // we oconfigure the push button on port D(PD0) as asked, for input
 
