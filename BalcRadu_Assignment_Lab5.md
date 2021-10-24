@@ -26,10 +26,18 @@ Therefore, CA SSD is active LOW.
  * Function: Timer/Counter1 overflow interrupt
  * Purpose:  Increment counter value from 00 to 59.
  **********************************************************************/
-ISR(TIMER1_OVF_vect)
-{
+ISR(TIMER1_OVF_vect) //  262 ms
+{   
     // WRITE YOUR CODE HERE
-
+    static uint8_t val1=0,val2=0;
+    
+    val++;
+    if(val0>9) //if the value of val0 will get to 9 it will reset to 0 and increment the value of the "tens"
+        {val1=0;
+        val2++;
+        }
+    if(val2>5)  //if the value of val2 will exceed 5 ( will reach 6 ) it will go back to 0 .
+        val2=0;      
 }
 ```
 
@@ -38,18 +46,23 @@ ISR(TIMER1_OVF_vect)
  * Function: Timer/Counter0 overflow interrupt
  * Purpose:  Display tens and units of a counter at SSD.
  **********************************************************************/
-ISR(TIMER0_OVF_vect)
+ISR(TIMER0_OVF_vect) // 4ms
 {
-    static uint8_t pos = 0;
-
-    // WRITE YOUR CODE HERE
-
+    static uint8_t pos = 0; 
+    pos++;
+    if(pos>1){
+        pos=0;
+        SEG_update_shift_regs(val1,pos); //this instruction changes the displayed number on pos. 0
+    }
+    else
+        SEG_update_shift_regs(val2,pos); //this instruction changes the displayed number on pos. 1
 }
 ```
 
 3. Flowchart figure for function `SEG_clk_2us()` which generates one clock period on `SEG_CLK` pin with a duration of 2&nbsp;us. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
 
-   ![your figure]()
+   ![your figure](BalcRadu_Lab5_Flowchart.png)
+   
 
 
 ### Kitchen alarm
