@@ -7,11 +7,16 @@
 ### LCD display module
 
 1. In your words, describe what ASCII table is.
-   * ASCII
+ 
+   ASCII(American Standard Code for Information Interchange) is a character encoding standard for communication. 
+
+   An ASCII table contains information about the representation and encoding of any character so that computers can communicate and understand each other.
+   
+   The ASCII table contains all the normal characters, such as alphabet letters, numbers and other types of characters, such as ETX( end of text ) and the list goes on.
 
 2. (Hand-drawn) picture of time signals between ATmega328P and LCD keypad shield (HD44780 driver) when transmitting three character data `De2`.
 
-   ![your figure]()
+   ![your figure](BalcRadu_Laboratory6_Signals.png)
 
 
 ### Stopwatch
