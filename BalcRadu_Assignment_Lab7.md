@@ -58,7 +58,7 @@ ISR(ADC_vect)
      lcd_gotoxy(12,1);
      lcd_puts("    ");
     
-    
+    // here is the sequence of code that displays witch button was pressed, based on the value of the ADC we have calculated and measured previously
      lcd_gotoxy(8, 1);
      itoa(value, lcd_string, 10);
      if (value>1000) 
